@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import LottieAnimation from "./LottieAnimation";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -31,7 +30,7 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <LottieAnimation /> {/* Use the Lottie component here */}
           </Col>
         </Row>
         <h1 className="project-heading">
@@ -45,7 +44,7 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Github />
+    
       </Container>
     </Container>
   );

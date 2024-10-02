@@ -8,7 +8,8 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-
+import elevProject from "../../Assets/Projects/elevProject.jpg";
+import sqlll from "../../Assets/Projects/sqlll.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -21,25 +22,29 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={elevProject}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Elevation Bikes"
+              description="As part of an intensive Data Analyst Bootcamp, this project focused on analyzing a bicycle company's dataset. The goal was to answer strategic business questions using data-driven decision-making (DDDM), including analyzing customer demographics and purchasing habits to increase sales."
+              ghLink="https://app.powerbi.com/view?r=eyJrIjoiODlhNTIzYjEtODljZi00ZmNmLWFlNjUtZGI0NmUyYjI0N2Y3IiwidCI6IjE2YzFmYzM2LWNmNWQtNDhlYS1iNzFmLWYzMjc3MzNjNzQ3MCJ9&pageName=a9676bfa6983972c51b0"
+              demoLink="https://app.powerbi.com/view?r=eyJrIjoiODlhNTIzYjEtODljZi00ZmNmLWFlNjUtZGI0NmUyYjI0N2Y3IiwidCI6IjE2YzFmYzM2LWNmNWQtNDhlYS1iNzFmLWYzMjc3MzNjNzQ3MCJ9&pageName=a9676bfa6983972c51b0"
+              demoButtonText="View Report"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={sqlll}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="SQL Challenges"
+              description="Weekly SQL Challenges: Engaged in weekly SQL challenges to sharpen my skills in database querying, data manipulation, and extracting meaningful insights. These challenges helped in developing efficient solutions for real-world business scenarios." 
+              ghLink="https://github.com/AmwajAS/SQL"
               demoLink="https://blogs.soumya-jit.tech/"
+              buttonText="GitHub"
+              // demoButtonText="GitHub"
             />
           </Col>
 
@@ -49,8 +54,8 @@ function Projects() {
               isBlog={false}
               title="Editor.io"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://github.com/AmwajAS/SQL"
+              demoLink="https://github.com/AmwajAS/SQL"              
             />
           </Col>
 

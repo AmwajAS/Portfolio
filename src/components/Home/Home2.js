@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
+import myPhoto from "../../Assets/CartoonizeEffect.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,44 +20,45 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              Passionate about Transforming &nbsp;
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Raw Data </b> into 
+                {" "}
                 <b className="purple">
-                  Blockchain.
+                Actionable Insights.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I am a recent &nbsp;
               <i>
+                <b className="purple">Information Systems </b> and 
+                {" "}
                 <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                Data Analysis Bootcamp
+                </b> Graduate.
               </i>
-              &nbsp; like
+              <br />
+              <br />
+              Proficient in  &nbsp;
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> Python, SQL, Excel, Data Modeling and Data Visualization.</b>  
               </i>
+              <br />
+              <br />
+              Seeking an Entry-level position.  &nbsp;
+
+              <br />
+
+    
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
+  <Tilt>
+    <img src={myPhoto} className="img-fluid circular-img" alt="avatar" />
+  </Tilt>
+</Col>
+
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
@@ -67,7 +69,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/AmwajAS"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,32 +79,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/amwajas/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>

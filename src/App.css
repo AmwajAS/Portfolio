@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.circular-img {
+  width: 300px; /* You can adjust the size */
+  height: 300px; /* Make the height and width equal for a perfect circle */
+  border-radius: 50%;
+  object-fit: cover; /* Ensures the image fits within the circle */
+}
