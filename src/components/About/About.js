@@ -5,7 +5,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import LottieAnimation from "./LottieAnimation";
 import Toolstack from "./Toolstack";
-
+import DataToolStack from "./DataToolstack";
 function About() {
   return (
     <Container fluid className="about-section">
@@ -28,23 +28,22 @@ function About() {
           <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
+            className="about-img">
             <LottieAnimation /> {/* Use the Lottie component here */}
           </Col>
+          
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Professional Data <strong className="purple">Skillset </strong>
         </h1>
-
-        <Techstack />
-
+        <DataToolStack />
+        &nbsp;
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Extra</strong> Skills, cuz, why not?
         </h1>
         <Toolstack />
+        {/* <DataToolStack /> */}
 
-    
       </Container>
     </Container>
   );
