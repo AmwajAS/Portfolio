@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.926f6d6f.css",
-    "main.js": "/Portfolio/static/js/main.808bcc81.js",
+    "main.js": "/Portfolio/static/js/main.142ee5d9.js",
     "static/js/415.55fc2127.chunk.js": "/Portfolio/static/js/415.55fc2127.chunk.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/leaf.png": "/Portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
@@ -10,6 +10,7 @@
     "static/media/suicide.png": "/Portfolio/static/media/suicide.9c86cd7138a398c45fa5.png",
     "static/media/CartoonizeEffect.jpg": "/Portfolio/static/media/CartoonizeEffect.e3747284005cfd62a6eb.jpg",
     "static/media/codeEditor.png": "/Portfolio/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/plot.png": "/Portfolio/static/media/plot.c8dbed59fd57a2b03588.png",
     "static/media/blog.png": "/Portfolio/static/media/blog.fb8ab7f271a937d5fc01.png",
     "static/media/elevProject.jpg": "/Portfolio/static/media/elevProject.cf377f4a1eca866457c6.jpg",
     "static/media/chatify.png": "/Portfolio/static/media/chatify.7206044e0b5cdad44726.png",
@@ -22,12 +23,12 @@
     "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Portfolio/index.html",
     "main.926f6d6f.css.map": "/Portfolio/static/css/main.926f6d6f.css.map",
-    "main.808bcc81.js.map": "/Portfolio/static/js/main.808bcc81.js.map",
+    "main.142ee5d9.js.map": "/Portfolio/static/js/main.142ee5d9.js.map",
     "415.55fc2127.chunk.js.map": "/Portfolio/static/js/415.55fc2127.chunk.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.926f6d6f.css",
-    "static/js/main.808bcc81.js"
+    "static/js/main.142ee5d9.js"
   ]
 }
