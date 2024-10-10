@@ -42,7 +42,7 @@ function Home2() {
               <br />
               Proficient in  &nbsp;
               <i>
-                <b className="purple"> Python, SQL, Excel, Data Modeling and Data Visualization.</b>  
+                <b className="purple"> Python, SQL, Data Cleaning, Modeling and Visualization.</b>  
               </i>
               <br />
               <br />
