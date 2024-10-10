@@ -63,7 +63,19 @@ GradientBoosting, Adaboost, KNNeighbors, Decision Tree, and RandomForest algorit
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
+            <ProjectCard
+            imgPath={hackathon}
+            isBlog={false}
+            title="Amazon Sales Analysis"
+            description="Exploring the Amazon Sales Dataset follows these steps: first, clean and prepare the data for accuracy. summarize it using descriptive statistics. visualize patterns and relationships through charts. Detect outliers, and divide the data into groups for deeper insights. Finally, summarize the key findings." 
+            ghLink="https://github.com/AmwajAS/AmazonSalesAnalysis"
+            demoLink="https://github.com/AmwajAS/AmazonSalesAnalysis"
+            buttonText="GitHub"
+            // demoButtonText="GitHub"             
+            />
+          </Col>
+          {/* <Col md={4} className="project-card"> https://github.com/AmwajAS/AmazonSalesAnalysis
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
