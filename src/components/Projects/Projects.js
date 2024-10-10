@@ -2,6 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import leaf from "../../Assets/Projects/leaf.png";
+import emotion from "../../Assets/Projects/emotion.png";
+import editor from "../../Assets/Projects/codeEditor.png";
+import chatify from "../../Assets/Projects/chatify.png";
+import suicide from "../../Assets/Projects/suicide.png";
+import bitsOfCode from "../../Assets/Projects/blog.png";
 import elevProject from "../../Assets/Projects/elevProject.jpg";
 import sqlll from "../../Assets/Projects/sqlll.png";
 import hackathon from "../../Assets/Projects/hack.png";
@@ -71,7 +77,7 @@ GradientBoosting, Adaboost, KNNeighbors, Decision Tree, and RandomForest algorit
             // demoButtonText="GitHub"             
             />
           </Col>
-          {/* <Col md={4} className="project-card"> 
+          { /*<Col md={4} className="project-card"> 
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
